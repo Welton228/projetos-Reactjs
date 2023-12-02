@@ -1,0 +1,54 @@
+.secao-banner {
+    background: rgba(184, 172, 7, 0.718) fixed center no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 700px;
+}
+
+.secao-titulo-banner {
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    text-shadow: 4px 4px 4px rgb(96, 95, 95);
+}
+
+.secao-sabores img {
+    width: 100%;
+}
+
+.secao-sabores {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.secao-texto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.secao-texto h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.secao-texto span {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.secao-texto p {
+    line-height: 30px;
+    font-weight: bold;
+}
+
+

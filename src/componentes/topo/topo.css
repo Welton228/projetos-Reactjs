@@ -1,0 +1,34 @@
+.container-topo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: rgba(184, 172, 7, 0.718);
+}
+
+.limita-secao-topo {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-topo img {
+    width: 70px;
+    height: 70px;
+}
+
+.topo-link {
+    color: black;
+    padding: 20px;
+    margin: 0 auto;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+

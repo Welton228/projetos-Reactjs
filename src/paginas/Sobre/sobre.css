@@ -1,0 +1,77 @@
+.secao-exterior {
+    width: 100%;
+
+}
+
+.secao-titulo-principal {
+    background: url('../../../public/assets/banner-sobre.png') fixed no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-titulo-principal h1 {
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px rgb(96, 95, 95);
+}
+
+.secao-texto-sobre {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-texto-sobre h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 60px;
+
+}
+
+.secao-texto-sobre span {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.secao-texto-sobre p {
+    line-height: 30px;
+    margin: 20px 50px 50px 50px;
+    color: black;
+}
+
+.secao-imagens {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.secao-imagens img {
+    width: 100%;
+    height: 500px;
+    image-rendering: pixelated;
+}
+
+@media screen and (max-width: 768px){
+    .secao-texto-sobre {
+        height: 100%;
+        margin: 0 auto;
+        
+    }
+
+    .secao-imagens {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 200px;
+        image-rendering: pixelated;
+    }
+}
+
+
